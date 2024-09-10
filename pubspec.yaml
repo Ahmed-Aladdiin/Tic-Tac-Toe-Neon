@@ -37,6 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   socket_io_client: ^2.0.3+1
   provider: ^6.1.2
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +50,10 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
 
+flutter_launcher_icons:
+  image_path: "./assets/imgs/icon.png"
+  android: true
+  ios: true
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
