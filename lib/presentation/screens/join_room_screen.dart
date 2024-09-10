@@ -17,6 +17,24 @@ class _JoinRoomScreenState extends State<JoinRoomScreen> {
   final TextEditingController name = TextEditingController();
   final TextEditingController room = TextEditingController();
 
+  @override
+  void initState() {
+    super.initState();
+    SocketMethods.joinSuccessListener(context, 1);
+    SocketMethods.joinErrorListener(context);
+  }
+
+  @override
+  void dispose() {
+    name.dispose();
+    SocketMethods.disposeJoinSuccessListener();
+    SocketMethods.disposeJoinErrorListener();
+    super.dispose();
+  }
+
+  void joinRoom() {
+    SocketMethods.joinRoom(name.text, room.text);
+  }
 
   @override
   Widget build(BuildContext context) {
