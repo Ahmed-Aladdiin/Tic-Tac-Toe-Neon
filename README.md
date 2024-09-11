@@ -1,7 +1,3 @@
-Here's a draft for your README file:
-
----
-
 # Tic-Tac-Toe Neon
 
 **Tic-Tac-Toe Neon** is a cross-platform, multiplayer, online version of the classic Tic-Tac-Toe game, built using Flutter. With a striking neon theme, this game offers a fresh, modern look and a seamless experience for all players.
@@ -53,14 +49,14 @@ Here's a draft for your README file:
 
 ## Screenshots
 
-<div style="display: flex; flex-wrap: wrap;">
-  <img src="./demo/demo_1.jpg" width="30%" style="margin: 1%;" />
-  <img src="./demo/demo_2.jpg" width="30%" style="margin: 1%;" />
-  <img src="./demo/demo_3.jpg" width="30%" style="margin: 1%;" />
-  <img src="./demo/demo_4.jpg" width="30%" style="margin: 1%;" />
-  <img src="./demo/demo_5.jpg" width="30%" style="margin: 1%;" />
-  <img src="./demo/demo_6.jpg" width="30%" style="margin: 1%;" />
-</div>
+<p align="center">
+  <img src="./demo/demo_1.jpg" height="700" />
+  <img src="./demo/demo_2.jpg" height="700" />
+  <img src="./demo/demo_3.jpg" height="700" />
+  <img src="./demo/demo_4.jpg" height="700" />
+  <img src="./demo/demo_5.jpg" height="700" />
+  <img src="./demo/demo_6.jpg" height="700" />
+</p>
 
 ## Technologies Used
 
