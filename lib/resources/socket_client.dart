@@ -5,7 +5,7 @@ class SocketClient {
   static final SocketClient _instance = SocketClient._internal();
 
   SocketClient._internal() {
-    const server = 'https://tic-tac-toe-cross.azurewebsites.net/';
+    const server = 'Your-back-end-server';
     socket = io(server, <String, dynamic> {
       'transports': ['websocket'],
       'autoConnect': false
